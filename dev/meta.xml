@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+  <name>Dev Homebrew Game</name>
+  <coder>Developer</coder>
+  <version>1.0.0</version>
+  <release_date>20260101</release_date>
+  <short_description>Custom Wii Homebrew Game</short_description>
+  <long_description>A custom C-based homebrew game created for Nintendo Wii, built with devkitPPC and libogc.</long_description>
+</app>

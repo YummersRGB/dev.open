@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Wii Game - Download</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">Wii Homebrew</span>
+            <h1>Dev Wii Game</h1>
+            <p class="subtitle">An open-source custom homebrew game for Nintendo Wii</p>
+        </header>
+
+        <main class="card">
+            <h2>Download & Installation</h2>
+            <p>Download the compressed release package below. Unzip the file and place the <code>dev</code> folder directly onto your SD card's <code>/apps/</code> directory.</p>
+            
+            <div class="download-section">
+                <a href="downloads/dev.zip" class="btn-download" download>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download dev.zip (v1.0.0)
+                </a>
+                <span class="file-info">Includes compiled <code>boot.dol</code> and <code>meta.xml</code></span>
+            </div>
+
+            <hr class="divider">
+
+            <h3>SD Card Directory Layout</h3>
+            <pre class="code-block">
+SD Card (root)/
+└── apps/
+    └── dev/
+        ├── boot.dol
+        ├── meta.xml
+        └── icon.png
+            </pre>
+        </main>
+
+        <footer>
+            <p>Built with devkitPPC & libogc | Launch via Homebrew Channel</p>
+        </footer>
+    </div>
+</body>
+</html>
